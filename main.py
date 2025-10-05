@@ -11,12 +11,14 @@ def orderoutput(e):
     address = document.getElementById('address').value
     phone = document.getElementById('number').value
 
+    # get id of checkboxes
     svt = document.getElementById('svtls')
     enha = document.getElementById('enls')
     bnd = document.getElementById('bndls')
     ive = document.getElementById('ivels')
     skz = document.getElementById('skzls')
 
+    # get value of checkboxes
     svt1 = document.getElementById('svtls').value
     enha1 = document.getElementById('enls').value
     bnd1 = document.getElementById('bndls').value
