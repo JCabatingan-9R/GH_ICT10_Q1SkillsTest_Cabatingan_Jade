@@ -30,7 +30,7 @@ def orderoutput(e):
 
     # multisting for orderer information output
     multi = f"""
-    Order for: {firstname}
+    Order for: {firstname} {lastname}
     Address: {address}
     Contact Number: {phone}
     Total: Php {total:.2f}
